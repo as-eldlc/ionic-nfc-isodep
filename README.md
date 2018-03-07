@@ -3,13 +3,13 @@
 </a>
 
 # TextHelper
-onic cordova plugin add phonegap-nfc
-$ npm install --save @ionic-native/nfc
+ionic cordova plugin add https://github.com/as-eldlc/phonegap-nfc-isodep
+$ npm install --save ionic-nfc-isodep
 ```
 
 ## [Usage Documentation](https://ionicframework.com/docs/native/nfc/)
 
-Plugin Repo: [https://github.com/chariotsolutions/phonegap-nfc](https://github.com/chariotsolutions/phonegap-nfc)
+Plugin Repo: [https://github.com/as-eldlc/phonegap-nfc-isodep](https://github.com/as-eldlc/phonegap-nfc-isodep)
 
 The NFC plugin allows you to read and write NFC tags. You can also beam to, and receive from, other NFC enabled devices.
 
@@ -18,6 +18,7 @@ Use to
 - write data to NFC tags
 - send data to other NFC enabled devices
 - receive data from NFC devices
+- send raw data to ISO-DEP enabled devices
 
 This plugin uses NDEF (NFC Data Exchange Format) for maximum compatibilty between NFC devices, tag types, and operating systems.
 

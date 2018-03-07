@@ -1,7 +1,7 @@
 {
-  "name": "@ionic-native/nfc-isodep",
-  "version": "0.0.1",
-  "description": "Ionic Native - Native plugins for ionic apps",
+  "name": "ionic-native-nfc-isodep",
+  "version": "0.0.2",
+  "description": "Ionic Native wrapper for NFC ISO-DEP cordova plugin",
   "module": "index.js",
   "typings": "index.d.ts",
   "author": "Antoine Scherrer",
